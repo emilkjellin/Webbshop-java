@@ -1,0 +1,24 @@
+header
+{
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 75px;
+}
+.bild1
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+main
+
+
+
+@media screen and (max-width:640px) 
+{
+ h1
+    {
+        
+    } 
+}
