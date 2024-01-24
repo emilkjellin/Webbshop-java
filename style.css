@@ -3,7 +3,8 @@ header
     background-color: chocolate;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 75px;
+    grid-template-rows: 1fr;
+    
 }
 .bild1
 {
@@ -11,14 +12,53 @@ header
     grid-column-end: 2;
 }
 
-main
+
 
 
 
 @media screen and (max-width:640px) 
 {
- h1
+   
+    ::-webkit-scrollbar-thumb{
+
+        background-color: black;
+
+    }
+
+    main
     {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+    
+        overflow-y: scroll;
+
+    }
+    .shopbilder
+    {
+     grid-column-start: 1;
+     grid-column-end: 2;
+     padding-left: 50px;
+
+    }
+    .button1
+    {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left: 110px;
+
+    }
+    div
+    {
+        border: 1px solid grey;
+        border-radius: 3px;
         
-    } 
+    }
+    .korg
+    {
+        border: 2px solid grey;
+        border-radius: 2px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
 }
