@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="se">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +9,54 @@
 <body>
     <header>
         <div class="bild1">
-         <img src="Proteinbitz.webp" alt="logotyp"  width="75" height="75">
+         <img src="./img/Proteinbitz.webp" alt="logotyp"  width="75" height="75">
         </div>
-        <div>
+        <div class="Searchbar">
          <input type="text" id="searchbar" >
         </div>
     </header>
    
     <aside>
-        <div class="korg:">
-            <h2>Korg:</h2>
+        <div class="korg">
+            <h2>Kundvagn:</h2>
         </div>   
     </aside>
     <main>
-        <div>
+        <div class="produkt">
             <div class="shopbilder">
-                <img src="proteinbars1.webp" alt="proteinbars" width="150" height="150">
+                <img src="./img/protein-bites-body-attack (1).webp" alt="proteinbars" width="100" height="50">
             </div>
+                 <div class="h2">
+                    <h2>Proteinbars</h2>
+                </div>
             <div class="button1">
-                <button onclick="lägg_till_varukorg('proteinbites', 500)">köp</button>
+                <button onclick="lägg_till_varukorg('proteinbitar', 500)">köp</button>
             </div>
         </div>
-        
+     
+        <div class="produkt">
+            <div class="shopbilder">
+                <img src="./img/proteinpowder (1).webp" alt="proteinpulver" width="150" height="150">
+            </div>
+                 <div class="h2">
+                    <h2>Proteinpowder</h2>
+                </div>
+            <div class="button1">
+                <button onclick="lägg_till_varukorg('proteinpulver', 500)">köp</button>
+            </div>
+        </div>
+      
+        <div class="produkt">
+            <div class="shopbilder">
+                <img src="./img/Proteinpulver+Whey+Vanille+250+g (1).webp" alt="Whey proteinpulver" width="150" height="150">
+            </div>
+                 <div class="h2">
+                    <h2>Whey Proteinpulver</h2>
+                </div>
+            <div class="button1">
+                <button onclick="lägg_till_varukorg('wheyproteinpulver', 500)">köp</button>
+            </div>
+        </div>
      </main>
 
 </body>
