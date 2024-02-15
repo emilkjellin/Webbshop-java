@@ -1,9 +1,7 @@
 header
 {
     background-color: chocolate;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr;
+   
     
 }
 .bild1
@@ -11,8 +9,15 @@ header
     grid-column-start: 1;
     grid-column-end: 2;
 }
-
-
+button
+{
+    background-color: khaki;
+}
+footer
+{
+    background-color: grey;
+    border-radius: 15px;
+}
 
 
 
@@ -24,6 +29,12 @@ header
         background-color: black;
 
     }
+    header
+    {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr;
+    }
 
     main
     {
@@ -34,10 +45,7 @@ header
         overflow-y: scroll;
 
     }
-    aside
-    {
-
-    }
+ 
     .produkt
     {
         background-color: grey;
@@ -60,13 +68,12 @@ header
     {
      grid-column-start: 1;
      grid-column-end: 2;
-     padding-left: 100px;
+     
     }
     .button1
     {
         grid-column-start: 1;
         grid-column-end: 2;
-        padding-left: 135px;
         padding-bottom: 10px;
         
 
@@ -78,6 +85,96 @@ header
        border-radius: 15px;
        padding-left: 10px;
 
+    }
+    
+}
+@media screen and (min-width:641px) and (max-width:1007px)
+{
+    ::-webkit-scrollbar-thumb{
+
+        background-color: black;
+
+    } 
+    
+  
+    
+    header
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main
+    {
+        display: grid;
+        grid-template-columns: 600px 400px ;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+        gap: 50px;
+    
+        overflow-y: scroll;
+
+    }
+
+    .shopbilder
+    {
+     padding-left: 200px;
+    }
+     .produkt1 
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+       
+    }
+    .produkt2
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+       
+    }
+    .produkt3
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-row-end: 4;
+        grid-column-end: 2;
+       
+    }
+    
+    .h2
+    {
+        text-align: center;
+    }
+    .button1
+    {
+        
+        padding-left: 230px;
+        padding-bottom: 10px;
+        
+
+    }
+    .Searchbar
+    {
+        padding-left: 500px;
+        padding-top: 25px;
+        
+    }
+    .korg
+    {
+       background-color: gray;
+       border-radius: 15px;
+       padding-left: 10px;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
     
 }
