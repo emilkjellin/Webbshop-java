@@ -70,16 +70,19 @@ footer
         margin-right: 25px;
         margin-left: 25px;
     }
+    .produkt4
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
     .h2
     {
         text-align: center;
     }
-    .Searchbar
-    {
-        padding-top: 28px;
-        padding-left: 80px;
-        
-    }
+    
+    
     .shopbilder
     {
      padding-left: 100px;
@@ -134,6 +137,7 @@ footer
     .shopbilder
     {
      padding-left: 170px;
+     margin-top: 20px;
     }
      .produkt1 
     {
@@ -189,12 +193,7 @@ footer
         
 
     }
-    .Searchbar
-    {
-        padding-left: 500px;
-        padding-top: 25px;
-        
-    }
+    
     .korg
     {
        background-color: gray;
@@ -210,13 +209,18 @@ footer
 }
 @media screen and (min-width:1008px)
 {
+    header
+    {
+
+    }
+    
     main
     {
         display: grid;
         grid-template-columns: 500px 500px 300px ;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         
-        gap: 20px;
+        gap: 40px;
     
         overflow-y: scroll;
         margin-top: 20px;
@@ -245,9 +249,9 @@ footer
         border-radius: 15px;
         margin-right: 25px;
         margin-left: 25px;
-        grid-row-start: 3;
+        grid-row-start: 2;
         grid-column-start: 1;
-        grid-row-end: 4;
+        grid-row-end: 3;
         grid-column-end: 2;
        
     }
@@ -257,11 +261,31 @@ footer
         border-radius: 15px;
         margin-right: 25px;
         margin-left: 25px;
-        grid-row-start: 4;
-        grid-column-start: 1;
-        grid-row-end: 5;
-        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-row-end: 3;
+        grid-column-end: 3;
        
+    }
+    .produkt5 
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+        
+    
+    }
+    .produkt6
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+        
+    
     }
     .korg
     {
@@ -280,5 +304,14 @@ footer
         padding-left: 205px;
         padding-bottom: 10px;
 
+    }
+    .h2
+    {
+        text-align: center;
+    }
+    .shopbilder
+    {
+     padding-left: 170px;
+     margin-top: 20px;
     }
 }
