@@ -13,15 +13,71 @@ header
 button
 {
     background-color: khaki;
+    cursor: pointer;
 }
+button:hover
+{
+    background-color: aliceblue;
+}
+
 footer
 {
     background-color: grey;
     border-radius: 15px;
 }
+.produkt1:hover
+{
+background-color: lightslategray;
+}
 
+.produkt2:hover
+{
+background-color: lightslategray;
+}
 
+.produkt3:hover
+{
+background-color: lightslategray;
+}
 
+.produkt4:hover
+{
+background-color: lightslategray;
+}
+
+.produkt5:hover
+{
+background-color: lightslategray;
+}
+
+.produkt6:hover
+{
+background-color: lightslategray;
+}
+#korg
+{
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.varukorg
+{
+    text-align: center;
+}
+.tömmclick
+{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+footer
+{
+    padding-left: 1rem;
+}
+.footer_p
+{
+    padding-bottom: 1rem;
+}
 @media screen and (max-width:640px) 
 {
    
@@ -55,6 +111,7 @@ footer
         margin-left: 25px;
       
     }
+   
     .produkt2
     {
         background-color: grey;
@@ -117,12 +174,12 @@ footer
 
     }
    
-    .korg
+    .varukorg
     {
        background-color: gray;
        border-radius: 15px;
        padding-left: 10px;
-
+        padding-bottom: 30px;
     }
     
 }
@@ -240,7 +297,7 @@ footer
 
     }
     
-    .korg
+    .varukorg
     {
        background-color: gray;
        border-radius: 15px;
@@ -263,7 +320,7 @@ footer
     main
     {
         display: grid;
-        grid-template-columns: 23rem 23rem 10rem ;
+        grid-template-columns: 27rem 27rem 15rem ;
         grid-template-rows: 1fr 1fr 1fr;
         
         gap: 40px;
@@ -278,6 +335,7 @@ footer
         border-radius: 15px;
         margin-right: 25px;
         margin-left: 25px;
+        padding-top: 3rem;
         
         
     
@@ -334,7 +392,7 @@ footer
         
     
     }
-    .korg
+    .varukorg
     {
        background-color: gray;
        border-radius: 15px;
@@ -348,7 +406,7 @@ footer
     .button1
     {
         
-        padding-left: 140px;
+        padding-left: 170px;
         padding-bottom: 10px;
 
     }
@@ -358,7 +416,7 @@ footer
     }
     .shopbilder
     {
-     padding-left: 110px;
+     padding-left: 140px;
      margin-top: 20px;
     }
 }
