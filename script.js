@@ -5,5 +5,7 @@ function lägg_till_varukorg(namn, pris)
         vara_namn:namn
         //vara_pris:pris
     }
-    document.querySelector("proteinbites");;
+    const produkter = [];
+    produkter[0]="proteinbitar";
+    produkter[1]="proteinpulver";
 }

@@ -77,6 +77,26 @@ footer
         margin-right: 25px;
         margin-left: 25px;
     }
+    .produkt5 
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+        
+    
+    }
+    .produkt6
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+        
+    
+    }
     .h2
     {
         text-align: center;
@@ -85,7 +105,7 @@ footer
     
     .shopbilder
     {
-     padding-left: 100px;
+     padding-left: 105px;
      
     }
     .button1
@@ -126,9 +146,9 @@ footer
     {
         display: grid;
         grid-template-columns: 500px 250px ;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         
-        gap: 20px;
+        gap: 30px;
     
         overflow-y: scroll;
         margin-top: 20px;
@@ -181,6 +201,32 @@ footer
         grid-column-end: 2;
        
     }
+    .produkt5 
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        grid-row-start: 5;
+        grid-column-start: 1;
+        grid-row-end: 6;
+        grid-column-end: 2;
+        
+    
+    }
+    .produkt6
+    {
+        background-color: grey;
+        border-radius: 15px;
+        margin-right: 25px;
+        margin-left: 25px;
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-row-end: 7;
+        grid-column-end: 2;
+        
+    
+    }
     .h2
     {
         text-align: center;
@@ -217,13 +263,14 @@ footer
     main
     {
         display: grid;
-        grid-template-columns: 500px 500px 300px ;
+        grid-template-columns: 23rem 23rem 10rem ;
         grid-template-rows: 1fr 1fr 1fr;
         
         gap: 40px;
     
         overflow-y: scroll;
         margin-top: 20px;
+       
     }
     .produkt1 
     {
@@ -301,7 +348,7 @@ footer
     .button1
     {
         
-        padding-left: 205px;
+        padding-left: 140px;
         padding-bottom: 10px;
 
     }
@@ -311,7 +358,7 @@ footer
     }
     .shopbilder
     {
-     padding-left: 170px;
+     padding-left: 110px;
      margin-top: 20px;
     }
 }
