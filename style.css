@@ -9,7 +9,9 @@ header
 {
     grid-column-start: 1;
     grid-column-end: 2;
+
 }
+
 button
 {
     background-color: khaki;
@@ -31,6 +33,7 @@ background-color: lightslategray;
 }
 
 .produkt2:hover
+
 {
 background-color: lightslategray;
 }
@@ -58,12 +61,18 @@ background-color: lightslategray;
 {
     background-color: aliceblue;
     border-radius: 15px;
+    border: 1px solid black;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
+
 .varukorg
 {
     text-align: center;
+}
+.varukorg:hover
+{
+    background-color: lightslategray;
 }
 .tömmclick
 {
@@ -183,7 +192,7 @@ footer
     }
     
 }
-@media screen and (min-width:641px) and (max-width:1007px)
+@media screen and (min-width:641px) and (max-width:1024px)
 {
     ::-webkit-scrollbar-thumb{
 
@@ -310,7 +319,7 @@ footer
     }
     
 }
-@media screen and (min-width:1008px)
+@media screen and (min-width:1025px)
 {
     header
     {

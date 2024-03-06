@@ -18,10 +18,14 @@ function visa_varukorg()
     korgElement.innerHTML = '';
 
     korg.forEach(function(vara) {
+       
         let varaNamn = document.createElement('h4');
         varaNamn.textContent = vara.namn;
+        
         let varaPris = document.createElement('p');
         varaPris.textContent = vara.pris;
+       
+       
         korgElement.appendChild(varaNamn);
         korgElement.appendChild(varaPris);
     });
